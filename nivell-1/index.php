@@ -32,3 +32,39 @@ define("NOM", "<h1><b>Albert Garcia Llorca<b></h1>");//Definició de constant am
 
 echo NOM;//Impressió
 
+echo "<br> <h1>Exercici 4</h2>";
+
+$x = 5;
+$y = 3;
+$n = 3.67;
+$m = 8.49;
+
+//X i Y
+echo "Valor X: ".$x."<br>";
+echo "Valor Y: ".$y."<br>";
+echo "Suma: ".($x+$y)."<br>";
+echo "Resta: ".($x-$y)."<br>";
+echo "Producte: ".($x*$y)."<br>";
+echo "Mòdul: ".($x%$y)."<br>";
+
+echo "<br>";
+
+//N i M 
+echo "Valor N: ".$n."<br>";
+echo "Valor M: ".$m."<br>";
+echo "Suma: ".($n+$m)."<br>";
+echo "Resta: ".($n-$m)."<br>";
+echo "Producte: ".($n*$m)."<br>";
+echo "Mòdul: ".($n%$m)."<br>";
+
+echo "<br>";
+
+//X, Y, N, M
+echo "Doble del valor X: ".($x*2)."<br>";
+echo "Doble del valor Y: ".($y*2)."<br>";
+echo "Doble del valor N: ".($n*2)."<br>";
+echo "Doble del valor M: ".($m*2)."<br>";
+echo "Suma de totes les variables: ".($x+$y+$n+$m)."<br>";
+echo "Producte de totes les variables: ".($x*$y*$n*$m)."<br>";
+
+echo "<br>";
