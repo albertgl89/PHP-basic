@@ -11,3 +11,17 @@ echo $variableInteger."<br>";
 echo $variableDouble ."<br>";
 echo $variableString ."<br>";
 echo $variableBoolean ? "true" : "false";
+
+echo "<br> <h1>Exercici 2</h2>";
+
+$hello = "Hello, World!";
+
+echo $hello."<br>";//Impressió normal
+
+echo strtoupper($hello)."<br>";//Tot a majúscules
+echo strlen($hello)."<br>";//Longitud de variable. Esperat: 13
+echo strrev($hello)."<br>";//String invertit
+
+$text = "Aquest és el curs de PHP";
+
+echo $hello.$text."<br>";//Concatenació dels dos string
