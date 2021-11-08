@@ -68,3 +68,19 @@ echo "Suma de totes les variables: ".($x+$y+$n+$m)."<br>";
 echo "Producte de totes les variables: ".($x*$y*$n*$m)."<br>";
 
 echo "<br>";
+
+echo "<br> <h1>Exercici 5</h2>";
+
+$array1 = array(1,2,3,4,5);//Primer array de 5 integers
+$array2 = array(6,7,8); //Segon array de 3 integers
+
+array_push($array2, 9);//Afegeix un integer més al segon array
+
+$mescla = array_merge($array1, $array2); // Barreja els dos arrays
+echo count($mescla)."<br>";//Esperat: 9 elements
+
+foreach($mescla as $element){//Imprimeix tots els elements de l'array resultant
+    echo $element."<br>";
+}
+
+echo "<br>";
