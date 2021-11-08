@@ -25,3 +25,10 @@ echo strrev($hello)."<br>";//String invertit
 $text = "Aquest és el curs de PHP";
 
 echo $hello.$text."<br>";//Concatenació dels dos string
+
+echo "<br> <h1>Exercici 3</h2>";
+
+define("NOM", "<h1><b>Albert Garcia Llorca<b></h1>");//Definició de constant amb text de capçalera i negreta
+
+echo NOM;//Impressió
+
