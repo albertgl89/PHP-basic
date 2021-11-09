@@ -55,3 +55,24 @@ $testArray = array(4, "Adeu", "Hola", "Hola", 4, "Pere", "Casa", 5);
 $valor = 4;
 
 echo cercaCoincidencies($testArray, $valor)."<br>";//Esperat: 2
+
+
+echo "<h1>Exercici 3</h1>";
+
+$X = array(10, 20, 30, 40, 50);
+
+echo "Array original: ";
+print_r($X);
+echo "<br>";
+
+unset($X[3]);//Eliminem el 40 
+
+echo "Eliminem 40: ";
+print_r($X);
+echo "<br>";
+
+array_splice($X,count($X));//Normalitzem els índexs refent l'array a la llargada actual
+
+echo "Array final: ";
+print_r($X);
+echo "<br>";
